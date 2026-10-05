@@ -1,0 +1,576 @@
+{
+ "fuente": "sintetico_calibrado",
+ "calidad": {
+  "n_semanas": 142,
+  "fechas_duplicadas": 0,
+  "orden_cronologico": true,
+  "saltos_mayores_a_8_dias": 1,
+  "faltantes": {},
+  "fuera_de_rango": {},
+  "atipicos_3de": {
+   "costo_mac": 1,
+   "costo_tierras": 1
+  }
+ },
+ "eda": {
+  "costo_mac": {
+   "media": 401.2621374073463,
+   "de": 30.54997517226515,
+   "min": 339.09919534824576,
+   "max": 465.6822290500939,
+   "cv": 7.613470677711104,
+   "adf_p_nivel": 0.47649665557517906,
+   "adf_p_dif": 6.1477680559069205e-28
+  },
+  "costo_tierras": {
+   "media": 9.756482772153955,
+   "de": 1.2571325746404045,
+   "min": 7.873729031402921,
+   "max": 13.634260725836238,
+   "cv": 12.885100132892104,
+   "adf_p_nivel": 0.07265419106364597,
+   "adf_p_dif": 0.006737595376851847
+  },
+  "brent": {
+   "media": 76.1675352112676,
+   "de": 10.05891391755984,
+   "min": 60.5,
+   "max": 115.89,
+   "cv": 13.206300938660027,
+   "adf_p_nivel": 0.551581597728699,
+   "adf_p_dif": 6.0774827154288364e-24
+  },
+  "fx": {
+   "media": 3.6450309859154926,
+   "de": 0.1459985335995039,
+   "min": 3.32899,
+   "max": 3.871,
+   "cv": 4.0054126882225844,
+   "adf_p_nivel": 0.7767303331258293,
+   "adf_p_dif": 2.3502842831739507e-07
+  },
+  "precio_ca": {
+   "media": 3770.2995004531776,
+   "de": 517.7298261546816,
+   "min": 2736.632308407971,
+   "max": 4714.590228221929,
+   "cv": 13.73179573910381,
+   "adf_p_nivel": 0.490754355022278,
+   "adf_p_dif": 0.5750929026070455
+  },
+  "vr_mac": 0.545077405155887,
+  "vr_tierras": 0.3945189164477797,
+  "n": 142,
+  "inicio": "2023-07-07",
+  "fin": "2026-03-22",
+  "inicio_test": "2025-02-14",
+  "corr": {
+   "costo_mac": {
+    "costo_mac": 1.0,
+    "costo_tierras": 0.331,
+    "precio_ca": 0.853,
+    "brent": 0.708,
+    "fx": 0.683,
+    "diesel": 0.772,
+    "prod_mac": -0.329,
+    "dist_acarreo": -0.01,
+    "utilizacion": -0.084
+   },
+   "costo_tierras": {
+    "costo_mac": 0.331,
+    "costo_tierras": 1.0,
+    "precio_ca": 0.022,
+    "brent": 0.244,
+    "fx": 0.042,
+    "diesel": 0.225,
+    "prod_mac": -0.66,
+    "dist_acarreo": 0.449,
+    "utilizacion": -0.655
+   },
+   "precio_ca": {
+    "costo_mac": 0.853,
+    "costo_tierras": 0.022,
+    "precio_ca": 1.0,
+    "brent": 0.689,
+    "fx": 0.825,
+    "diesel": 0.794,
+    "prod_mac": 0.144,
+    "dist_acarreo": 0.054,
+    "utilizacion": 0.122
+   },
+   "brent": {
+    "costo_mac": 0.708,
+    "costo_tierras": 0.244,
+    "precio_ca": 0.689,
+    "brent": 1.0,
+    "fx": 0.456,
+    "diesel": 0.964,
+    "prod_mac": -0.031,
+    "dist_acarreo": 0.042,
+    "utilizacion": 0.07
+   },
+   "fx": {
+    "costo_mac": 0.683,
+    "costo_tierras": 0.042,
+    "precio_ca": 0.825,
+    "brent": 0.456,
+    "fx": 1.0,
+    "diesel": 0.633,
+    "prod_mac": 0.147,
+    "dist_acarreo": 0.11,
+    "utilizacion": 0.074
+   },
+   "diesel": {
+    "costo_mac": 0.772,
+    "costo_tierras": 0.225,
+    "precio_ca": 0.794,
+    "brent": 0.964,
+    "fx": 0.633,
+    "diesel": 1.0,
+    "prod_mac": 0.009,
+    "dist_acarreo": 0.077,
+    "utilizacion": 0.07
+   },
+   "prod_mac": {
+    "costo_mac": -0.329,
+    "costo_tierras": -0.66,
+    "precio_ca": 0.144,
+    "brent": -0.031,
+    "fx": 0.147,
+    "diesel": 0.009,
+    "prod_mac": 1.0,
+    "dist_acarreo": 0.124,
+    "utilizacion": 0.512
+   },
+   "dist_acarreo": {
+    "costo_mac": -0.01,
+    "costo_tierras": 0.449,
+    "precio_ca": 0.054,
+    "brent": 0.042,
+    "fx": 0.11,
+    "diesel": 0.077,
+    "prod_mac": 0.124,
+    "dist_acarreo": 1.0,
+    "utilizacion": 0.002
+   },
+   "utilizacion": {
+    "costo_mac": -0.084,
+    "costo_tierras": -0.655,
+    "precio_ca": 0.122,
+    "brent": 0.07,
+    "fx": 0.074,
+    "diesel": 0.07,
+    "prod_mac": 0.512,
+    "dist_acarreo": 0.002,
+    "utilizacion": 1.0
+   }
+  }
+ },
+ "hiperparametros": {
+  "costo_mac": {
+   "xgb": {
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "n_estimators": 150
+   },
+   "lgbm": {
+    "num_leaves": 8,
+    "learning_rate": 0.03,
+    "n_estimators": 150,
+    "min_child_samples": 5
+   }
+  },
+  "costo_tierras": {
+   "xgb": {
+    "max_depth": 2,
+    "learning_rate": 0.1,
+    "n_estimators": 400
+   },
+   "lgbm": {
+    "num_leaves": 8,
+    "learning_rate": 0.1,
+    "n_estimators": 300,
+    "min_child_samples": 10
+   }
+  }
+ },
+ "campeon": {
+  "costo_mac": [
+   "lgbm",
+   "sarimax"
+  ],
+  "costo_tierras": [
+   "qr",
+   "qr"
+  ]
+ },
+ "tiempos_s": {
+  "costo_mac": {
+   "ultimo": 0.004058907390572131,
+   "pm4": 0.010848671954590827,
+   "ets": 0.39768383314367384,
+   "sarimax": 2.2612706589279696,
+   "arx": 0.35446179390419275,
+   "qr": 3.195617266697809,
+   "xgb": 7.2383887970936485,
+   "lgbm": 3.4629024557070807,
+   "mlp": 6.557980000739917,
+   "lstm": 7.411702652927488,
+   "chronos": 3.650958041253034
+  },
+  "costo_tierras": {
+   "ultimo": 0.004016611084807664,
+   "pm4": 0.010539459122810513,
+   "ets": 0.3072391980676912,
+   "sarimax": 8.188991020899266,
+   "arx": 0.4096226856345311,
+   "qr": 4.291639134869911,
+   "xgb": 10.97025388124166,
+   "lgbm": 4.789479902072344,
+   "mlp": 6.852772663347423,
+   "lstm": 8.741070161690004,
+   "chronos": 1.6544010676443577
+  }
+ },
+ "mcs": {
+  "costo_mac": {
+   "ultimo": 0.059,
+   "xgb": 0.4515,
+   "pm4": 0.4665,
+   "arx": 0.589,
+   "ets": 0.6465,
+   "lstm": 0.657,
+   "sarimax": 0.657,
+   "chronos": 0.657,
+   "mlp": 0.9595,
+   "lgbm": 0.9595,
+   "qr": 0.9595,
+   "ens": 1.0
+  },
+  "costo_tierras": {
+   "lgbm": 0.0,
+   "ets": 0.0,
+   "ultimo": 0.0,
+   "chronos": 0.0,
+   "pm4": 0.0,
+   "mlp": 0.0,
+   "lstm": 0.0,
+   "xgb": 0.0,
+   "qr": 0.018,
+   "ens": 0.131,
+   "sarimax": 0.314,
+   "arx": 1.0
+  }
+ },
+ "mde": {
+  "costo_mac": 21.036750462493597,
+  "costo_tierras": 41.52737765768451
+ },
+ "contingencia": {
+  "costo_mac": {
+   "cont_media_base": 5.0,
+   "cont_media_motor": 6.903425355940477,
+   "cont_min_motor": 2.1100081053370583,
+   "cont_max_motor": 14.092869464086204,
+   "cobertura_base": 90.74074074074075,
+   "cobertura_motor": 94.44444444444444,
+   "deficit_medio_base": 0.3632900381512922,
+   "deficit_medio_motor": 0.34081539424207424,
+   "exceso_medio_base": 20.43543919107371,
+   "exceso_medio_motor": 26.76174337991263,
+   "costo_medio": 370.59919795827966,
+   "cont_base90": 4.844851813587668,
+   "cont_motor90": 5.93694580610881,
+   "precio_base90": 1.05263092285872,
+   "precio_motor90": 1.0621788346648176,
+   "ventaja_precio_pp": -0.9547911806097487
+  },
+  "costo_tierras": {
+   "cont_media_base": 5.0,
+   "cont_media_motor": 3.015267028144908,
+   "cont_min_motor": 1.0,
+   "cont_max_motor": 5.944641965693,
+   "cobertura_base": 72.22222222222221,
+   "cobertura_motor": 90.74074074074075,
+   "deficit_medio_base": 0.2366560353864503,
+   "deficit_medio_motor": 0.02336295301430338,
+   "exceso_medio_base": 0.6917653894229906,
+   "exceso_medio_motor": 0.3431060221334145,
+   "costo_medio": 9.66501987548316,
+   "cont_base90": 13.924079502853894,
+   "cont_motor90": 2.502671633360274,
+   "precio_base90": 1.1397588016719284,
+   "precio_motor90": 1.0301002772911958,
+   "ventaja_precio_pp": 10.965852438073265
+  }
+ },
+ "economico": {
+  "supuestos": {
+   "vol_mac": 150000,
+   "vol_t_cot": 3000000,
+   "tasa_exito": 0.3,
+   "share_sa": 0.4,
+   "margen_contrib": 0.12,
+   "captura": 0.3,
+   "elasticidad": 1.0,
+   "cot_mes": 30,
+   "horas_ahorro": 3.0,
+   "costo_hora": 45.0,
+   "tasa": 0.12,
+   "anios": 3
+  },
+  "inversion": {
+   "Analista / cient\u00edfico de datos (6 meses a tiempo completo)": 54000,
+   "Desarrollo e integraci\u00f3n en el ERP y tablero": 18000,
+   "Asesor\u00eda estad\u00edstica externa": 12000,
+   "Capacitaci\u00f3n y gesti\u00f3n del cambio": 6000,
+   "Imprevistos (10 %)": 9000.0
+  },
+  "opex": {
+   "Infraestructura en la nube y c\u00f3mputo": 6000,
+   "Mantenimiento y reentrenamiento (0,25 FTE)": 27000,
+   "Monitoreo y auditor\u00eda del modelo": 4000
+  },
+  "escenarios": {
+   "Pesimista": {
+    "beneficios": {
+     "perdidas_evitadas": 65336.403346197156,
+     "competitividad": 21366.612643943667,
+     "horas": 24300.0
+    },
+    "ben_total": 111003.01599014082,
+    "inversion": 128700.0,
+    "opex": 48100.0,
+    "flujo": [
+     -128700.0,
+     7401.507995070409,
+     62903.01599014082,
+     62903.01599014082
+    ],
+    "VAN": -27172.487182179564,
+    "TIR": 0.014361660331091097,
+    "BC": 0.8887413489186715,
+    "recuperacion": NaN
+   },
+   "Base": {
+    "beneficios": {
+     "perdidas_evitadas": 78133.98828852597,
+     "competitividad": 128199.67586366202,
+     "horas": 48600.0
+    },
+    "ben_total": 254933.664152188,
+    "inversion": 99000.0,
+    "opex": 37000.0,
+    "flujo": [
+     -99000.0,
+     90466.832076094,
+     217933.664152188,
+     217933.664152188
+    ],
+    "VAN": 310630.2174623118,
+    "TIR": 1.2927285940028708,
+    "BC": 2.653451462603273,
+    "recuperacion": 1.1049069135955478
+   },
+   "Optimista": {
+    "beneficios": {
+     "perdidas_evitadas": 78133.98828852597,
+     "competitividad": 320499.18965915503,
+     "horas": 64800.0
+    },
+    "ben_total": 463433.177947681,
+    "inversion": 99000.0,
+    "opex": 37000.0,
+    "flujo": [
+     -99000.0,
+     194716.5889738405,
+     426433.177947681,
+     426433.177947681
+    ],
+    "VAN": 718330.7290180486,
+    "TIR": 2.531775400094074,
+    "BC": 4.823597730545556,
+    "recuperacion": 0.5694430073181713
+   },
+   "Sin competitividad": {
+    "beneficios": {
+     "perdidas_evitadas": 78133.98828852597,
+     "competitividad": 0.0,
+     "horas": 48600.0
+    },
+    "ben_total": 126733.98828852597,
+    "inversion": 99000.0,
+    "opex": 37000.0,
+    "flujo": [
+     -99000.0,
+     26366.994144262986,
+     89733.98828852597,
+     89733.98828852597
+    ],
+    "VAN": 59948.225550518255,
+    "TIR": 0.3888586087188636,
+    "BC": 1.3190980002742378,
+    "recuperacion": 2.061415387495845
+   }
+  },
+  "tornado": {
+   "Captura de la ventaja de precio": [
+    185289.221506415,
+    435971.2134182084
+   ],
+   "Elasticidad de adjudicaci\u00f3n": [
+    185289.221506415,
+    435971.2134182084
+   ],
+   "Margen de contribuci\u00f3n": [
+    178574.52529449196,
+    456115.3020539775
+   ],
+   "Volumen cotizado de tierras": [
+    110215.92518041315,
+    511044.50974421017
+   ],
+   "Proporci\u00f3n a suma alzada": [
+    234238.51175702352,
+    387021.92316760006
+   ],
+   "Horas ahorradas por cotizaci\u00f3n": [
+    263113.9319302418,
+    358146.5029943817
+   ],
+   "Inversi\u00f3n y costos operativos": [
+    216696.33900021267,
+    404564.0959244109
+   ]
+  },
+  "montecarlo": {
+   "prob_van_pos": 96.99,
+   "p5": 15835.827596258041,
+   "p50": 203617.51387472986,
+   "p95": 559632.0905152988,
+   "media": 235009.01550708638
+  }
+ },
+ "ablacion": {
+  "costo_mac": {
+   "modelo": "lgbm",
+   "Todas las variables": 9.902424617267124,
+   "Mercado externo (Brent, TC)": 11.829988445954259,
+   "Insumo (cemento asf\u00e1ltico)": 10.53023317231525,
+   "Planificaci\u00f3n (producci\u00f3n)": 10.394292708062258,
+   "Estacionalidad": 9.692797320420857,
+   "Autorregresivas (rezagos)": 10.728794155776951
+  },
+  "costo_tierras": {
+   "modelo": "qr",
+   "Todas las variables": 0.1597073269645613,
+   "Mercado externo (Brent, TC)": 0.145594320836333,
+   "Insumo (di\u00e9sel)": 0.3154136889386758,
+   "Planificaci\u00f3n (acarreo, utilizaci\u00f3n, lluvias)": 0.5080898022852751,
+   "Estacionalidad": 0.15408431270212639,
+   "Autorregresivas (rezagos)": 0.1597073269645613
+  }
+ },
+ "shap": {
+  "costo_mac": {
+   "lag1": 35.61000061035156,
+   "prod_plan": 17.139999389648438,
+   "r_fx4": 11.920000076293945,
+   "brent": 7.010000228881836,
+   "idx": 6.559999942779541,
+   "r_brent4": 6.269999980926514,
+   "fx": 5.170000076293945,
+   "ma4": 4.960000038146973,
+   "r_ca4": 2.0,
+   "mes_sin": 1.7699999809265137,
+   "precio_ca": 1.2699999809265137,
+   "mes_cos": 0.3199999928474426
+  },
+  "costo_tierras": {
+   "lluvia_plan": 35.22999954223633,
+   "util_plan": 31.489999771118164,
+   "dist_plan": 17.68000030517578,
+   "mes_cos": 2.640000104904175,
+   "lag1": 2.299999952316284,
+   "brent": 2.0399999618530273,
+   "ma4": 1.899999976158142,
+   "r_fx4": 1.7799999713897705,
+   "idx": 1.5499999523162842,
+   "fx": 1.4500000476837158,
+   "r_brent4": 1.149999976158142,
+   "mes_sin": 0.5699999928474426,
+   "diesel": 0.2199999988079071
+  }
+ },
+ "curva_aprendizaje": {
+  "costo_mac": {
+   "modelo": "lgbm",
+   "20": 12.223019401149394,
+   "30": 11.526101422347503,
+   "40": 11.151737964878073,
+   "50": 11.258191451494259,
+   "expansiva": 9.902424617267124
+  },
+  "costo_tierras": {
+   "modelo": "qr",
+   "20": 0.2490585491373874,
+   "30": 0.2699038461748715,
+   "40": 0.19197171879372757,
+   "50": 0.19955254239623058,
+   "expansiva": 0.1597073269645613
+  }
+ },
+ "drift": {
+  "costo_mac": {
+   "psi_max": {
+    "r_brent4": 0.7251021314491748,
+    "r_fx4": 1.1100819765990078,
+    "r_ca4": 1.1939338460107116
+   },
+   "semanas_psi_mayor_025": {
+    "r_brent4": 7,
+    "r_fx4": 33,
+    "r_ca4": 33
+   },
+   "primera_psi_025": {
+    "r_brent4": "2025-12-21",
+    "r_fx4": "2025-08-08",
+    "r_ca4": "2025-08-08"
+   },
+   "alarmas_cusum": 2,
+   "semanas_cob_baja": 4,
+   "fechas_alarma_cusum": [
+    "2025-03-14",
+    "2025-03-28"
+   ],
+   "cob_movil_min": 58.333333333333336,
+   "n_semanas": 33
+  },
+  "costo_tierras": {
+   "psi_max": {
+    "r_brent4": 0.7251021314491748,
+    "dist_plan": 1.0708946106428519,
+    "util_plan": 0.7464818452750539
+   },
+   "semanas_psi_mayor_025": {
+    "r_brent4": 7,
+    "dist_plan": 28,
+    "util_plan": 12
+   },
+   "primera_psi_025": {
+    "r_brent4": "2025-12-21",
+    "dist_plan": "2025-08-08",
+    "util_plan": "2025-08-22"
+   },
+   "alarmas_cusum": 3,
+   "semanas_cob_baja": 14,
+   "fechas_alarma_cusum": [
+    "2025-06-13",
+    "2026-02-15",
+    "2026-02-22"
+   ],
+   "cob_movil_min": 41.66666666666667,
+   "n_semanas": 33
+  }
+ }
+}
